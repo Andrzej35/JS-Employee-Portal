@@ -1,0 +1,47 @@
+{
+  "name": "js-test-developerr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=dev node $NODE_DEBUG_OPTION server/index.js",
+    "build": "next build",
+    "start": "next start",
+    "test": "SET NODE_ENV=test && mocha **/*.test.js || jest **/*.test.js",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage && mocha --coverage",
+    "kill": "kill $(lsof -t -i:3000)"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "isomorphic-unfetch": "^3.0.0",
+    "mongoose": "^5.4.12",
+    "next": "^8.0.1",
+    "next-routes": "^1.4.2",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^24.1.0",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.9.1",
+    "expect": "^24.1.0",
+    "jest": "^24.1.0",
+    "jest-cli": "^24.1.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.10",
+    "prop-types": "^15.7.2",
+    "react-test-renderer": "^16.8.2",
+    "sinon": "^7.2.4",
+    "supertest": "^3.4.2"
+  }
+}

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[<App />] [<App />] shows Employee portal 1`] = `
+<div
+  className="jsx-2014846492"
+>
+  <div
+    className="jsx-2014846492 container"
+  >
+    <div
+      className="jsx-2014846492 row cac"
+    >
+      <h1
+        className="jsx-2014846492"
+      >
+        Employee portal
+      </h1>
+    </div>
+    <div
+      className="jsx-2014846492 row row-eq-height"
+    />
+  </div>
+</div>
+`;
